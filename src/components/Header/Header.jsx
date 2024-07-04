@@ -25,15 +25,14 @@ const Header = ({  }) => {
 
             <div className={ `basis-10/12	   `}>          
               <div className={ `${styles.clipped} items-end	`}>  
-                  <div className='flex flex-row content-between p-8 w-full justify-between '>
+                  <div className='flex relative overflow-hidden flex-row content-between p-8 w-full justify-between '>
                       <div className={``}>
                         <p className={`${styles.textHeader} `}>WE GREW UP PLAYING VIDEOGAMES</p>
                         <h1 className={`${styles.titleHeaderTop}`}><span className={`text-white`}>NOW WE</span></h1>
                         <h1 className={`${styles.titleHeaderBottom}`}>MAKE THEM</h1>
                       </div>
                       <div className='self-end px-10'>
-                        <MainButton textContent={`Get Started`} buttonColor= "buttonWhite" className={`p-4`}/>
-                        
+                        <MainButton textContent={`Get Started`} buttonColor= "buttonWhite" className={`p-4`}/>                        
                       </div>
                   </div> 
                 <VideoIntro />                 
