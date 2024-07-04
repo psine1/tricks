@@ -2,11 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'nerisLight';
+  src: url('/fonts/Neris-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nerisBoldItalic';
+  src: url('/fonts/Neris-BoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nerisSemiBold';
+  src: url('/fonts/Neris-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nerisSemiBoldItalic';
+  src: url('/fonts/Neris-SemiBoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nerisBlack';
+  src: url('/fonts/Neris-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nerisBlackItalic';
+  src: url('/fonts/Neris-BlackItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+
+  --font-primary: 'nerisLight, Arial, sans-serif';
+  --font-secundary: 'nerisBoldItalic, Arial, sans-serif';
+  --font-third: 'nerisSemiBold, Arial, sans-serif';
+  --font-size-base: 16px;
+  --font-size-large: 24px;
+  --font-size-small: 12px;
+
+  --rose-1: #C63AF8;
+  --rose-2: #FFB6F7;
+
 }
+
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,4 +87,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.nerisSemiBold{
+  font-family: 'nerisSemiBold';
+}
+
+.nerisBlackItalic{
+  font-family: 'nerisBlackItalic';
 }

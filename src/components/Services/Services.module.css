@@ -1,0 +1,11 @@
+.bgServices{
+    background: url('/images/darkGradient.svg') no-repeat center center;
+    background-size: cover; /* o cover según lo que necesites */
+    background-color: #490CAB;
+}
+
+.tittleServices{
+    font-size: clamp(2.5rem, 5.625vw, 5.625rem); 
+    color: #FFFFFF;
+}
+

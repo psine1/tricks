@@ -1,0 +1,46 @@
+.wrapCard{
+    border-radius: 5px 30px;
+    background-color: #FFFFFF;
+    gap: 1;
+    overflow: hidden;
+}
+
+.titleCard{
+  font-size: clamp(1.5rem, 2vw, 2rem); 
+  font-family: 'nerisBlack';
+}
+
+.textCard{
+  font-size: clamp(0.45rem, 1.25vw, 1.25rem); 
+}
+
+
+
+.rightSide {
+    flex: 1;
+    position: relative;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imageWrapper {
+    right: 0px;
+    top: 0px;
+    width: 256px;
+    height: 280px;
+    z-index: 999;
+    position: relative;
+  }
+  
+
+  .positionPx{
+    right: 0px;
+    top: 0px;
+    width: 256px;
+    height: 280px;
+    z-index: 1;
+  }
