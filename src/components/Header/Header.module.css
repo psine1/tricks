@@ -1,14 +1,13 @@
 .header {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   display: block;
   justify-content: center;
   align-content: center;
-  background-image: url('/images/bgHome.jpg'); 
+/*  background-image: url('/images/bg.jpg'); */
   background-size: cover;
   background-position: top;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .wrapHeader{
@@ -78,4 +77,30 @@
   }
 
 
+
+  .bgHeader {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url('/images/bg.jpg'); 
+    background-size: cover;
+    background-position: top;
+    z-index: -1;
+  }
   
+
+  .gradientHeader{
+    position: absolute;
+    bottom: -25%;
+    left: 0px;
+    width: 974px;
+    height: 888px;
+    flex-shrink: 0;
+    background: var(--Linear, linear-gradient(90deg, #02D0D9 0%, #AB61F3 100%));
+    filter: blur(150px);
+    opacity: 0.85;
+  }

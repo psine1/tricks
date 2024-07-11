@@ -11,7 +11,9 @@ const Header = ({  }) => {
     <>
           <NavBar></NavBar>
 
-    <header className={`${styles.header}`}>
+    <header className={` relative ${styles.header}`}>
+      <div className={`${styles.bgHeader}`}></div>
+      <div className={`${styles.gradientHeader}`}></div>
       <div className={`${styles.wrapHeader}`}>
         <div className=' gap-2 flex'>
             <div className={ `flex flex-col justify-between items-center basis-2/12 `}> 

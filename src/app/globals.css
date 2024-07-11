@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
 @font-face {
   font-family: 'nerisLight';
   src: url('/fonts/Neris-Light.woff') format('woff');
@@ -45,10 +48,11 @@
 }
 
 :root {
+  /*
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-
+*/
 
   --font-primary: 'nerisLight, Arial, sans-serif';
   --font-secundary: 'nerisBoldItalic, Arial, sans-serif';
@@ -74,6 +78,7 @@
 }
 
 body {
+  /*
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -81,6 +86,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    */
 }
 
 @layer utilities {
@@ -96,4 +102,12 @@ body {
 
 .nerisBlackItalic{
   font-family: 'nerisBlackItalic';
+}
+
+.nerisBlack{
+  font-family: 'nerisBlack';
+}
+
+.fontInter{
+  font-family: "Inter", sans-serif;
 }

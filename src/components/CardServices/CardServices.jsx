@@ -2,31 +2,47 @@ import React from 'react';
 import styles from './CardServices.module.css';
 import Image from 'next/image';
 
-const CardServices = () => {
+const CardServices = ({content, title, imageSrc}) => {
   return (
     <>
-    <div className={`${styles.wrapCard} flex`}>
-        <div className='py-8 px-8'>
-            <h3 className={`${styles.titleCard}`}>Work for Hire</h3>
-            <p className={`${styles.textCard}`}>Lorem ipsum dolor sit amet consectetur. Neque mauris massa mauris.</p>
-        </div>
+    <div className={` relative   ${styles.card} flex w-full `}>
 
-
-        <div className={styles.rightSide}>
-          <div className={styles.imageContainer}>
-
-            <div className={`absolute ${styles.positionPx}`}>
-              <Image src="/images/mask.png" width={256} height={280} />
+            <div className={`${styles.content} w-8/12`} >
+              <h1 className={`${styles.titleCard}`}>{title}</h1>
+              <p className={`${styles.textCard}`}>{content}</p>
+              <div className={`${styles.footerCard} w-8/12`}>
+                <Image
+                  className=''
+                  src="/images/more.svg"
+                  alt="card-image"
+                  width={36}    
+                  height={36}             
+                />
+              </div>
             </div>
-            <div className={`${styles.imageWrapper}`}>
-              <Image src="/images/imgtestCard.png" width={256} height={280} alt="Image 1" />
-            </div>
-          </div>
-        </div>
 
+              <div className={`${styles.imgRight} w-4/12`}>             
+              </div>
 
+              <div className={`${styles.wrapImage}`}>
+                  <Image
+                      className={`${styles.imgCard}`}
+                          src="/images/hexagonBg.svg"
+                          alt="hexagonBg-image"
+                          width={300}
+                          height={300}                        
+                  />
 
+                  <Image
+                      className={`${styles.characterImg}`}
+                          src={imageSrc}
+                          alt="hexagonBg-image"
+                          width={448}
+                          height={568}
+                  />
+              </div>                
     </div>
+
     </>
   );
 };

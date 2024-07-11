@@ -1,7 +1,9 @@
 .bgServices{
-    background: url('/images/darkGradient.svg') no-repeat center center;
-    background-size: cover; /* o cover según lo que necesites */
+  /*  background: url('/images/darkGradient.svg') no-repeat center center;
+    background-size: cover; 
     background-color: #490CAB;
+
+*/    
 }
 
 .tittleServices{
@@ -9,3 +11,12 @@
     color: #FFFFFF;
 }
 
+.bgSection{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(73, 12, 171, 0.00) 6.54%, #490CAB 44.69%);
+    z-index: -1;
+}
