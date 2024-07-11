@@ -16,7 +16,7 @@ const Services = () => {
 
           <div className='relative max-w-7xl flex flex-col md:flex-row gap-5'>          
             <CardServices
-              content={'A continuación te muestro cómo podrías crear la misma card en un proyecto de Next.js. Supongamos que ya tienes un proyecto de Next.js'}
+              content={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text.'}
               title={'Work for hire'}
               footer={'pie de pag'}
               imageSrc={'/images/imgtestCard.png'}
