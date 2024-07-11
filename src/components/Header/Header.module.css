@@ -97,8 +97,8 @@
     position: absolute;
     bottom: -25%;
     left: 0px;
-    width: 974px;
-    height: 888px;
+    width: 75%;
+    height: 75%;
     flex-shrink: 0;
     background: var(--Linear, linear-gradient(90deg, #02D0D9 0%, #AB61F3 100%));
     filter: blur(150px);
