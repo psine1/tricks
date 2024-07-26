@@ -81,26 +81,28 @@
   .bgHeader {
     position: absolute;
     width: 100%;
-    height: 200%;
+    height: 220%;
     top: 0px;
     left: 0px;
     background-repeat: no-repeat;
     object-fit: cover;
-    background-image: url('/images/bg.jpg'); 
+    /*background-image: url('/images/bg.jpg'); */
     background-size: cover;
     background-position: top;
-    z-index: -1;
+    /*background-color: #7743CB;*/
+    background: linear-gradient(180deg, #FFF 12.11%, #9747FF 48.47%, #FFFFFF);
+
   }
   
 
   .gradientHeader{
     position: absolute;
     bottom: -25%;
-    left: 0px;
+    right: 0px;
     width: 75%;
     height: 75%;
     flex-shrink: 0;
     background: var(--Linear, linear-gradient(90deg, #02D0D9 0%, #AB61F3 100%));
     filter: blur(150px);
-    opacity: 0.85;
+    opacity: 1;
   }
