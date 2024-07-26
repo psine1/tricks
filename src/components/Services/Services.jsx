@@ -8,13 +8,13 @@ const Services = () => {
     <section  className={`relative flex min-h-screen flex-col items-center justify-around p-24 ${styles.bgServices}`}>
       <div className={`${styles.bgSection}`}></div>
 
-          <div className={`max-w-7xl flex flex-col container`}>
+          <div className={`container flex flex-col`}>
             <h3 className={`${styles.tittleServices}`}>The <b>Whole Nine Yards</b></h3>
             <p className='text-white max-w-xl'>Argentinian roots, US muscle. Trick Studios (est. 2010) crafts
             Games & Software globally. We combine nearshore ninjas with US devs & producers for a full-service punch (games, art, engineering, you name it!).</p>
           </div>
 
-          <div className='relative max-w-7xl flex flex-col md:flex-row gap-5'>          
+          <div className='relative container flex flex-col md:flex-row gap-5'>          
             <CardServices
               content={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text.'}
               title={'Work for hire'}

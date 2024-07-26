@@ -1,0 +1,12 @@
+.flair {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-color: #02D0D9;
+    border-radius: 100%;
+    mix-blend-mode: hard-light;
+    z-index: 999999;
+  }

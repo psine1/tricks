@@ -5,9 +5,9 @@ import Image from 'next/image';
 const CardServices = ({content, title, imageSrc}) => {
   return (
     <>
-    <div className={` relative   ${styles.card} flex w-full `}>
+    <div className={` relative   ${styles.card} flex w-full sm:h-auto md:h-80 `}>
 
-            <div className={`${styles.content} w-8/12`} >
+            <div className={`${styles.content} w-8/12 h-full`} >
               <h1 className={`${styles.titleCard}`}>{title}</h1>
               <p className={`${styles.textCard}`}>{content}</p>
               <div className={`${styles.footerCard} w-8/12`}>
@@ -21,7 +21,7 @@ const CardServices = ({content, title, imageSrc}) => {
               </div>
             </div>
 
-              <div className={`${styles.imgRight} w-4/12`}>             
+              <div className={`${styles.imgRight} w-4/12 h-full`}>             
               </div>
 
               <div className={`${styles.wrapImage}`}>
