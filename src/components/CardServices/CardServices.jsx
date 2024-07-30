@@ -7,10 +7,10 @@ const CardServices = ({content, title, imageSrc}) => {
     <>
     <div className={` relative   ${styles.card} flex w-full sm:h-auto md:h-80 `}>
 
-            <div className={`${styles.content} w-8/12 h-full`} >
-              <h1 className={`${styles.titleCard}`}>{title}</h1>
-              <p className={`${styles.textCard}`}>{content}</p>
-              <div className={`${styles.footerCard} w-8/12`}>
+            <div className={`${styles.content} w-6/12 h-full`} >
+              <h1 className={`${styles.titleCard} pr-5`}>{title}</h1>
+              <p className={`${styles.textCard} pr-5`}>{content}</p>
+              <div className={`${styles.footerCard} w-6/12`}>
                 <Image
                   className=''
                   src="/images/more.svg"
