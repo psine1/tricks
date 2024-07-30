@@ -9,8 +9,8 @@ const Services = () => {
       <div className={`${styles.bgSection}`}></div>
 
           <div className={`container flex flex-col`}>
-            <h5 className={`${styles.sectionName}`}><b>02 |</b> Services</h5>
-            <h3 className={`${styles.tittleServices}`}>The <b>Whole Nine Yards</b></h3>
+            <h5 className={`sectionName`}><span className={`highlight`}>02 |</span> Services</h5>
+            <h3 className={`tittleServices`}>The <b>Whole Nine Yards</b></h3>
             <p className='text-white max-w-xl'>Argentinian roots, US muscle. Trick Studios (est. 2010) crafts
             Games & Software globally. We combine nearshore ninjas with US devs & producers for a full-service punch (games, art, engineering, you name it!).</p>
           </div>

@@ -112,3 +112,20 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
+/* text styles */
+
+.sectionName{
+  font-size: clamp(1rem, 1.125vw, 1.125rem); 
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.sectionName .highlight {
+  color: #FFB6F7;
+}
+
+.tittleServices{
+  font-size: clamp(2.5rem, 5.625vw, 5.625rem); 
+  color: #FFFFFF;
+}

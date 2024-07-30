@@ -6,19 +6,6 @@
 */    
 }
 
-.sectionName{
-    font-size: clamp(1rem, 1.125vw, 1.125rem); 
-    color: #FFFFFF;
-}
-
- .sectionName b{
-    color: #FFB6F7;
-}
-
-.tittleServices{
-    font-size: clamp(2.5rem, 5.625vw, 5.625rem); 
-    color: #FFFFFF;
-}
 
 .bgSection{
     position: absolute;
