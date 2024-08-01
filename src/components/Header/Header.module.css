@@ -45,25 +45,27 @@
     font-family: 'nerisSemiBoldItalic';
     font-size: clamp(0.75rem, 3.125vw, 3.125rem); 
     line-height: 0.9;
-    
+    font-variant: all-small-caps;
   }
 
   .titleHeaderTop{
     color: var(--rose-1);
     font-family: 'nerisBlack';
     font-size: clamp(2rem, 6.875vw, 6.875rem); 
-    line-height: 0.9;
+    line-height: 0.5;
+    font-variant: all-small-caps;
   }
 
   .titleHeaderBottom{
 /*    color: var(--rose-1); */
     font-family: 'nerisBlackItalic';
     font-size: clamp(2.375rem, 8.75vw, 8.75rem); 
-    line-height: 0.9;
+    line-height: 0.8;
     background: linear-gradient(20deg, #02D0D9 20%, #AB61F3 40%, #C63AF8 40%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-variant: all-small-caps;
   }
 
   .bgHeader {

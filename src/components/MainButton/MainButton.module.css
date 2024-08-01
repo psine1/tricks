@@ -34,3 +34,11 @@
     background-color: #FFFFFF;
     color: #C63AF8;
 }
+
+.wrapStroke{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  } 

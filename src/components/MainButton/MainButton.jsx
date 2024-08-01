@@ -1,13 +1,21 @@
 import React from 'react';
 import styles from './MainButton.module.css';
+import SvgStrokeButton from '../SvgStrokeButton/SvgStrokeButton';
 
 const MainButton = ({textContent, buttonColor = "buttonRose1",}) => {
   return (
     <>
-    <button className={`mt-1 mb-1 py-3 ${styles.MainButton} ${styles[buttonColor]}`}>
-      {/* Contenido del encabezado */}
-      {textContent}
-    </button>
+    <div className='relative flex justify-end'>
+      <button className={`relative  py-3 ${styles.MainButton} ${styles[buttonColor]}`}>
+        {/* Contenido del encabezado */}
+        {textContent}
+      </button>
+      <div className={` absolute ${styles.wrapStroke}`}>
+          <div className={`${styles.wrapStroke}`}>
+            <SvgStrokeButton  />
+            </div>
+        </div>
+    </div>
     </>
   );
 };
