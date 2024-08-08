@@ -116,16 +116,42 @@ body {
 /* text styles */
 
 .sectionName{
+  font-family: 'nerisLight';
   font-size: clamp(1rem, 1.125vw, 1.125rem); 
   color: #FFFFFF;
-  font-weight: 700;
 }
 
 .sectionName .highlight {
   color: #FFB6F7;
+  font-weight: 600;
 }
 
 .tittleServices{
+  font-family: 'nerisLight';
   font-size: clamp(2.5rem, 5.625vw, 5.625rem); 
   color: #FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2;
+  font-variant-caps: small-caps;
+}
+
+.tittleServices2{
+  font-family: 'nerisSemiBold';
+  font-size: clamp(2.5rem, 5.625vw, 5.625rem); 
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  font-variant-caps: all-small-caps;
+}
+
+.tittleServices3{
+  font-family: 'nerisBlack';
+  font-size: clamp(2.5rem, 5.625vw, 5.625rem); 
+  color: #490CAB;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+  font-variant-caps: all-small-caps;
 }

@@ -11,7 +11,7 @@ const CardServices = ({content, title, imageSrc}) => {
       <div className={` relative ${styles.wrapCard}`}>
           <div className={`  ${styles.card} flex w-full sm:h-auto md:h-80 `}>
                   <div className={`${styles.content} w-6/12 h-full`} >
-                    <h1 className={`${styles.titleCard} pr-5`}>{title}</h1>
+                    <h1 className={`${styles.titleCard} pr-5 py-4`}>{title}</h1>
                     <p className={`${styles.textCard} pr-5`}>{content}</p>
                     <div className={`${styles.footerCard} w-6/12`}>
                       <Image

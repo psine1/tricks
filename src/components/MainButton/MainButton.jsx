@@ -6,7 +6,7 @@ const MainButton = ({textContent, buttonColor = "buttonRose1",}) => {
   return (
     <>
     <div className='relative flex justify-end'>
-      <button className={`relative  py-3 ${styles.MainButton} ${styles[buttonColor]}`}>
+      <button className={`relative  py-3 ${styles.mainButton} ${styles[buttonColor]}`}>
         {/* Contenido del encabezado */}
         {textContent}
       </button>

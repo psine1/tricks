@@ -28,7 +28,7 @@ const Header = ({  }) => {
                         <h1 className={`${styles.titleHeaderBottom}`}>MAKE THEM</h1>
                       </div>
                       <div className='self-end px-14'>
-                        <MainButton textContent={`Get Started`} buttonColor= "buttonRose1" className={`p-8`}/>                        
+                        <MainButton textContent={`GET STARTED`} buttonColor= "buttonRose1" className={`p-8`}/>                        
                       </div>
                   </div> 
                 <VideoIntro />                 
